@@ -15,8 +15,8 @@ int createProduct(Product *p){
     return 1;
 }
 
-void readProduct(Product *p){
-    printf("%-15s %d %4d원\n",p->name,p->num,p->price);
+void readProduct(Product p){
+    printf("%-15s %d %4d원\n",p.name,p.num,p.price);
 }
 
 int updateProduct(Product *p){
